@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 100 100">
+  <defs>
+    <!-- Gradiente suave e moderno -->
+    <linearGradient id="vGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- V minimalista e dinâmico com curvas suaves -->
+  <path 
+    d="M 20 15 Q 35 45, 50 85 Q 65 45, 80 15" 
+    fill="none" 
+    stroke="url(#vGradient)" 
+    stroke-width="8" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+  
+  <!-- Ponto de energia/vida no centro (simboliza controle e equilíbrio) -->
+  <circle cx="50" cy="50" r="4" fill="#10b981" opacity="0.9"/>
+</svg>
